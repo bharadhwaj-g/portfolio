@@ -341,6 +341,7 @@ ul.news {
 }
 .news-grid {
     margin: 2em 0;
+    background: #f4f4f4;
 }
 .news-grid:hover{
 		transition:0.5s all;
