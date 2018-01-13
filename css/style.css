@@ -586,7 +586,7 @@ span.border.one:after {
 .about-right {
   float: left;
   padding: 0;
-  background: url(../images/profile.jpg) no-repeat 0px 0px;
+  background: url(../images/pic10.jpg) no-repeat 0px 0px;
   min-height: 580px;
   background-size: cover;
   -o-background-size: cover;
@@ -2302,4 +2302,8 @@ span.border.two:after {
   text-transform: uppercase;
   font-weight: bold;
   text-align: left;
+}
+
+.about-inner .left-align{
+  text-align: left !important;
 }
