@@ -660,10 +660,11 @@ span.border.one:after {
 
 .wthree_about_right_grid_left {
   padding: 0;
+  margin-bottom: 20px;
 }
 
 .wthree_about_right_grid_left i {
-  font-size: 1.7em;
+  font-size: 1.3em;
   color: #0288D1;
   top: .8em;
 }
@@ -712,8 +713,8 @@ span.border.one:after {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   border-radius: 50%;
 }
@@ -2349,4 +2350,52 @@ svg:not(:root) {
 
 .hero__links {
   margin-top: 1.5em;
+}
+
+.progress-box h5 {
+  font-weight: 700;
+  color: #515769;
+  line-height: 1.4;
+  margin: 0 0 15px;
+}
+.progress-box .progress {
+    box-shadow: none;
+    height: 3px;
+}
+
+/* styles for skills bar */
+.progress {
+  height: 35px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+.col-md-12.skill-group-div {
+  padding: 0px!important;
+}
+.skill-group-div .left-div {
+  padding-left: 0px;
+}
+.skill-group-div .right-div {
+  padding-right: 0px;
+}
+/* end */
+.wthree_about_right_grid_right {
+  padding-left: 0px !important;
 }
