@@ -2304,6 +2304,49 @@ span.border.two:after {
   text-align: left;
 }
 
-.about-inner .left-align{
+.about-inner .left-align {
   text-align: left !important;
+}
+
+.hero__resume {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0.5em 1.5em;
+  font-size: 1em;
+  color: #0288D1;
+  border: 2px solid #0288D1;
+  text-decoration: none;
+  border-radius: 1.5em;
+}
+
+.hero__resume:hover {
+  background: #0288D1;
+  color: #fff;
+}
+
+.hero__social {
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+  margin: unset;
+}
+
+.hero__social li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.hero__social svg {
+  width: 25px;
+  height: 25px;
+  fill: #8f8f8f;
+  transition: 0.5s ease all;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.hero__links {
+  margin-top: 1.5em;
 }
