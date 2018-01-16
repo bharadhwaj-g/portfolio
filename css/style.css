@@ -2358,16 +2358,19 @@ svg:not(:root) {
   line-height: 1.4;
   margin: 0 0 15px;
 }
+
 .progress-box .progress {
-    box-shadow: none;
-    height: 3px;
+  box-shadow: none;
+  height: 3px;
 }
+
 
 /* styles for skills bar */
+
 .progress {
   height: 35px;
-
 }
+
 .progress .skill {
   font: normal 12px "Open Sans Web";
   line-height: 35px;
@@ -2376,6 +2379,7 @@ svg:not(:root) {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 .progress .skill .val {
   float: right;
   font-style: normal;
@@ -2386,16 +2390,35 @@ svg:not(:root) {
   text-align: left;
   transition-duration: 3s;
 }
+
 .col-md-12.skill-group-div {
   padding: 0px!important;
 }
+
 .skill-group-div .left-div {
   padding-left: 0px;
 }
+
 .skill-group-div .right-div {
   padding-right: 0px;
 }
+
+
 /* end */
+
 .wthree_about_right_grid_right {
   padding-left: 0px !important;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+@media(max-width:768px) {
+  .skill-group-div .left-div {
+    padding-left: 15px;
+  }
+  .skill-group-div .right-div {
+    padding-right: 15px;
+  }
 }
