@@ -1,8 +1,8 @@
-# Portfolio  or Resume or CV
+# Portfolio  or Resume
 This repo contains a portfolio resume that showcases examples of your work along with the usual resume information about your work experience.
 It was created with HTML, CSS and Javascript. Its is lightweight and fully responsive, as well as comes with the Bootstrap.
 
-To view a live demo, [click here](https://bharadhwaj-g.github.io/portfolio/)
+To view a live demo, [click here](https://github.com/jmwania/gatsby-portfolio-dev)
 
 ## Features
 * Easy to integrate
